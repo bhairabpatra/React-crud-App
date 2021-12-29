@@ -1,0 +1,41 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #FFF;
+}
+
+header{
+  background-color:maroon;
+  color: #FFF;
+  padding: 10px 0px;
+}
+.links{
+  text-align: center;
+}
+.link{
+  color: #FFF;
+  border: 1px solid #FFF;
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+.link:hover{
+  color: #FFF;
+  list-style-type: none;
+  text-decoration: none;
+}
+.main-form{
+  max-width: 500px;
+  margin: 0px auto;
+  border: 2px solid rgb(211, 211, 211);
+  padding: 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+.errorMsg{
+  color: red;
+}
